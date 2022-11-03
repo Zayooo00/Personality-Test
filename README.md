@@ -2,7 +2,7 @@
 
 ## About the project
 
-Pesonality test to check whether you are a melancholic sanguine choleric or phlegmatic.
+Pesonality test to check whether you are a melancholic, sanguine, choleric or phlegmatic.
 
 ### Built with
 
