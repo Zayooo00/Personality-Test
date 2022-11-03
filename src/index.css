@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Montserrat';
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #434748;
+  font-family: 'Montserrat';
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  background: #242728;
+  border-radius: 3px;
+  border: 1px solid rgb(210, 203, 145);
+  box-shadow: rgba(249, 249, 249, 0.3) 0px 0px 20px 0px;
+  background-image: repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0.3) 2px);
+  background-color: initial;
+}
+
+@media (min-width: 769px) {
+  .container {
+    margin: 2.5rem auto;
+  }
+}
+
+.result {
+  padding: 1.5rem 2.5rem;
+  color: #D2CB91;
+}
+
+.answerOptions {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.questionCount {
+  padding: 1.5rem 2.5rem 0;
+  font-size: 14px;
+  color: #D2CB91;
+}
+
+.question {
+  margin: 0;
+  padding: 0.5rem 2.5rem 1.5rem 2.5rem;
+  color: rgb(221 219 216);
+}
+
+.answerOption {
+  border-top: 1px solid rgb(210, 203, 145);
+  color: #D2CB91;
+}
+
+.answerOption:hover {
+  background-color: rgb(210, 203, 145);
+}
+
+.radioCustomButton {
+  position: absolute;
+  width: auto;
+  opacity: 0;
+}
+
+.radioCustomButton,
+.radioCustomLabel {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.radioCustomLabel {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 1.5rem 2.5rem 1.5rem 5rem;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.radioCustomButton ~ .radioCustomLabel:before {
+  position: absolute;
+  top: 20px;
+  left: 38px;
+  width: 28px;
+  height: 28px;
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  background: #3c4042;
+  border: 1px solid rgb(210, 203, 145);
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.radioCustomButton:checked ~ .radioCustomLabel:before {
+  content: '';
+  background: #8bc53f url(./svg/icon-check.svg) no-repeat;
+  background-size: 27px;
+  border-color: #8bc53f;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out 0.3s;
+}
+
+.fade-leave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-appear {
+  opacity: 0;
+}
+
+.fade-appear.fade-appear-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
