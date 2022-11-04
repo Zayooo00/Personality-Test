@@ -14,7 +14,7 @@ function Result(props) {
       transitionAppearTimeout={500}
     >
       <div>
-       <h1> Twoje wyniki</h1>
+       <h1> Oto twoje wyniki</h1>
        <table style={{border: '1px solid', width:'100%'}}>
         <tbody>
       {props.quizResult.map((items, index) => {

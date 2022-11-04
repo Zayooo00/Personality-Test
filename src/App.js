@@ -59,7 +59,7 @@ class App extends Component {
   }
 
   setUserAnswer(answer) {
-    this.setState((state, props) => ({
+    this.setState((state) => ({
       answersCount: {
         ...state.answersCount,
         [answer]: (state.answersCount[answer] || 0) + 1
