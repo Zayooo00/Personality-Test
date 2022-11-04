@@ -24,7 +24,7 @@ Pesonality test to check whether you are a melancholic, sanguine, choleric or ph
 -  Enable legacy provider
   ```sh
   $env:NODE_OPTIONS = "--openssl-legacy-provider"
-  ```sh
+  ```
 
 ### Usage
 
