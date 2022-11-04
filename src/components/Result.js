@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { CSSTransitionGroup } from 'react-transition-group';
-
+import quizQuestions from '../api/quizQuestions';
 function Result(props) {
   return (
     <CSSTransitionGroup
@@ -14,14 +14,35 @@ function Result(props) {
       transitionAppearTimeout={500}
     >
       <div>
-        <strong>{props.quizResult}</strong>!
+       <h1> Twoje wyniki</h1>
+       <table style={{border: '1px solid', width:'100%'}}>
+        <tbody>
+      {props.quizResult.map((items, index) => {
+      return (   
+    <tr key={index}>
+    {items.map((subItems, sIndex) => {
+
+      if(sIndex===0)
+      {
+        return <td style={{border: '1px solid'}} key={sIndex}> {subItems} </td>;
+      }
+      else
+      {
+        return <td style={{border: '1px solid'}} key={sIndex}> {(subItems/quizQuestions.length)*100}%</td>
+      }
+    })}
+    </tr> 
+);
+})}  
+      </tbody>
+      </table>
       </div>
     </CSSTransitionGroup>
   );
 }
 
 Result.propTypes = {
-  quizResult: PropTypes.string.isRequired
+  quizResult: PropTypes.arrayOf(String).isRequired
 };
 
 export default Result;

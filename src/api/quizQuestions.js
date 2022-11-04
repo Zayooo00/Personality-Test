@@ -3,19 +3,19 @@ var quizQuestions = [
         question: "Które zdanie najlepiej cie opisuje?",
         answers: [
             {
-                type: "Jesteś Flegmatykiem",
+                type: "Flegmatyk",
                 content: "Jestem obserwatorem"
             },
             {
-                type: "Jesteś Cholerykiem",
+                type: "Choleryk",
                 content: "Jestem człowiekiem czynu"
             },
             {
-                type: "Jesteś Sangwinikiem",
+                type: "Sangwinik",
                 content: "Jestem emocjonalny"
             },
             {
-                type: "Jesteś Melancholikiem",
+                type: "Melancholik",
                 content: "Jestem myślicielem"
             },
         ]
@@ -24,19 +24,19 @@ var quizQuestions = [
         question: "Jak najlepiej ci się pracuje?",
         answers: [
             {
-                type: "Jesteś Flegmatykiem",
+                type: "Flegmatyk",
                 content: "W spokoju i bez nagłych sytuacji"
             },
             {
-                type: "Jesteś Cholerykiem",
+                type: "Choleryk",
                 content: "Z pozycji szefa/szefowej"
             },
             {
-                type: "Jesteś Sangwinikiem",
+                type: "Sangwinik",
                 content: "W większym gronie osób"
             },
             {
-                type: "Jesteś Melancholikiem",
+                type: "Melancholik",
                 content: "W samotności"
             },
         ]
@@ -45,19 +45,19 @@ var quizQuestions = [
         question: "W dzieciństwie często...",
         answers: [
             {
-                type: "Jesteś Flegmatykiem",
+                type: "Flegmatyk",
                 content: "poznawałeś/aś inne osoby"
             },
             {
-                type: "Jesteś Cholerykiem",
+                type: "Choleryk",
                 content: "kłóciłeś/aś się"
             },
             {
-                type: "Jesteś Sangwinikiem",
+                type: "Sangwinik",
                 content: "płakałeś/aś"
             },
             {
-                type: "Jesteś Melancholikiem",
+                type: "Melancholik",
                 content: "siedziałeś/aś sam"
             },
         ]
@@ -66,19 +66,19 @@ var quizQuestions = [
         question: "Jak reagujesz na niepowodzenia?",
         answers: [
             {
-                type: "Jesteś Flegmatykiem",
+                type: "Flegmatyk",
                 content: "Szukam innego sposobu"
             },
             {
-                type: "Jesteś Cholerykiem",
+                type: "Choleryk",
                 content: "Denerwuje się"
             },
             {
-                type: "Jesteś Sangwinikiem",
+                type: "Sangwinik",
                 content: "Próbuję ponownie"
             },
             {
-                type: "Jesteś Melancholikiem",
+                type: "Melancholik",
                 content: "Załamuje się"
             },
         ]
@@ -87,19 +87,19 @@ var quizQuestions = [
         question: "Który kolor lubisz najbardziej?",
         answers: [
             {
-                type: "Jesteś Flegmatykiem",
+                type: "Flegmatyk",
                 content: "Zielony"
             },
             {
-                type: "Jesteś Cholerykiem",
+                type: "Choleryk",
                 content: "Zółty"
             },
             {
-                type: "Jesteś Sangwinikiem",
+                type: "Sangwinik",
                 content: "Czerwony"
             },
             {
-                type: "Jesteś Melancholikiem",
+                type: "Melancholik",
                 content: "Niebieski"
             },
         ]
