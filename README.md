@@ -21,7 +21,7 @@ Pesonality test to check whether you are a melancholic, sanguine, choleric or ph
   ```sh
   npm install
   ```
--  Enable legacy provider
+- Enable legacy provider
   ```sh
   $env:NODE_OPTIONS = "--openssl-legacy-provider"
   ```
