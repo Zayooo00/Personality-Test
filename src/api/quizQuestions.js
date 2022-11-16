@@ -46,7 +46,7 @@ var quizQuestions = [
         answers: [
             {
                 type: "Flegmatyk",
-                content: "poznawałeś/aś inne osoby"
+                content: "płakałeś/aś
             },
             {
                 type: "Choleryk",
@@ -54,7 +54,7 @@ var quizQuestions = [
             },
             {
                 type: "Sangwinik",
-                content: "płakałeś/aś"
+                content: "poznawałeś/aś inne osoby"
             },
             {
                 type: "Melancholik",
