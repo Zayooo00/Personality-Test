@@ -46,7 +46,7 @@ var quizQuestions = [
         answers: [
             {
                 type: "Flegmatyk",
-                content: "płakałeś/aś
+                content: "płakałeś/aś"
             },
             {
                 type: "Choleryk",
